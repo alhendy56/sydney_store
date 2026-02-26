@@ -7,6 +7,9 @@
   "keywords": [
     "gatsby"
   ],
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop -p 5000",
@@ -27,7 +30,4 @@
     "plop": "^3.0.5",
     "prettier": "^3.2.5"
   }
-}
-"engines": {
-  "node": "18.x"
 }
