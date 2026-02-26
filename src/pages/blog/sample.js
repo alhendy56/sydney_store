@@ -4,7 +4,6 @@ import * as styles from './sample.module.css';
 import Blog from '../../components/Blog';
 import Container from '../../components/Container';
 import Layout from '../../components/Layout/Layout';
-import { toOptimizedImage } from '../../helpers/general';
 
 const SamplePage = (props) => {
   return (
@@ -50,11 +49,7 @@ const SamplePage = (props) => {
               </div>
               <div className={styles.imagesContainer}>
                 <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/cloth.png')} alt={'sample1'} />
-                </div>
-                <div className={styles.imageContainer}>
-                  <img src={toOptimizedImage('/collections/collection1.png')} alt={'sample2'} />
-                </div>
+                <div className={styles.imageContainer}
               </div>
               <div className={styles.content}>
                 <h2 className={styles.blogSubHeader}>2. Lorem ipsum</h2>
